@@ -1,1 +1,22 @@
-<p>grafica1 works!</p>
+<div class="row">
+    <div class="col-6">
+        <app-doughnut [title]="'Sales'"></app-doughnut>
+    </div>
+    <div class="col-6">
+        <app-doughnut [title]="'Purchases'"
+        [labels]="labels1"></app-doughnut>
+
+    </div>
+</div>
+<div class="row">
+    <div class="col-6">
+        <app-doughnut></app-doughnut>
+
+    </div>
+    <div class="col-6">
+        <app-doughnut [title]="'hoy'"></app-doughnut>
+
+    </div>
+</div>
+
+
